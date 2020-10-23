@@ -1,0 +1,45 @@
+_id: req_d4f588322dc54cc4aefa746133ab7fd6
+type: Request
+parentId: fld_386b28f0b4f9417d8806f2d2bc76a2a9
+modified: 1603398514019
+created: 1603398038258
+url: https://sandbox.zohoapis.com/crm/v2/Leads
+name: Criar Lead
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"data": [
+    		{
+    			"Last_Name": "Teste Update",
+    			"Company": "TESTE INSONIA"
+    		}
+    	], 
+     "trigger" : [
+      	"workflow", 
+    	  "blueprint"
+    	 
+     ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Zoho-oauthtoken
+      1000.13e7d89a0b26e8492dc8117901d80ce2.1f800a7599135011faa14a8d728fd773
+    description: ""
+    id: pair_3bd87dde4e8c45f99082c3b1731b63b6
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_11d7e98bc9764e3598ae3b723e0f0168
+authentication: {}
+metaSortKey: -1603398038258
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

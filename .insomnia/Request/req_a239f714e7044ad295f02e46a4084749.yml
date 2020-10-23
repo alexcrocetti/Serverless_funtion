@@ -1,0 +1,39 @@
+_id: req_a239f714e7044ad295f02e46a4084749
+type: Request
+parentId: fld_386b28f0b4f9417d8806f2d2bc76a2a9
+modified: 1603310992166
+created: 1603310790940
+url: https://sandbox.zohoapis.com/crm/v2/Leads/3744377000000477989
+name: Atualizar Lead
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "data": [
+    {
+    	"Company": "TESTE INSONIA"
+    }
+    ]
+    }
+parameters: []
+headers:
+  - name: Authorization
+    value: Zoho-oauthtoken
+      1000.72bc2e795b4589c0913ce079e01b10c2.8a771f6723d927e099654e8750e1dfc5
+    description: ""
+    id: pair_cc34d480e5b74fcc96a06b19a034bcca
+  - name: Content-Type
+    value: application/json
+    description: ""
+    id: pair_607568d419d24243b2a75c517c1d445d
+authentication: {}
+metaSortKey: -1603310790940
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
