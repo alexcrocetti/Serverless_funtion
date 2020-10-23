@@ -1,0 +1,38 @@
+_id: req_c685edb2ffbe40e7a55737eb43ab26c2
+type: Request
+parentId: fld_386b28f0b4f9417d8806f2d2bc76a2a9
+modified: 1603400507401
+created: 1603398657283
+url: https://www.zohoapis.com/crm/v2/functions/serverless_function/actions/execute?auth_type=oauth
+name: Serverless function
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: arguments
+      value: '{"Last_Name": "zapzp", "Empresa" : "Servless"} '
+      id: pair_25c37527105d43e5977b4b4f98eda635
+parameters: []
+headers:
+  - name: auth_type
+    value: oauth
+    description: ""
+    id: pair_f330db469a464c23baf893cf2aeef088
+  - name: Authorization
+    value: Zoho-oauthtoken
+      1000.9558bfde7fde08b20e8c0c9c96c5619c.a8b368a03b3d42ec495d3864691ba1bf
+    description: ""
+    id: pair_b869b066f45c4d0c8795dc544eafd358
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_dfa37539300d4ee6979f3aaf85ad2026
+authentication: {}
+metaSortKey: -1603398657283
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
